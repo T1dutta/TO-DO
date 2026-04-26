@@ -1,4 +1,4 @@
-# Taskr — Todo Task Manager
+# Task —  Task Manager
 
 Full-stack task management app: React 19 frontend + Express/SQLite backend.
 
