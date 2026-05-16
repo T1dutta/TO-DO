@@ -182,7 +182,7 @@ function AppearanceSection() {
   const ACCENTS = ['#6366f1', '#10b981', '#f59e0b', '#ef4444', '#ec4899'];
 
   return (
-    <SectionCard icon={Palette} title="Appearance" description="Customize how Taskr looks.">
+    <SectionCard icon={Palette} title="Appearance" description="Customize how Mindora looks.">
       <div className="settings-actions-list">
         <div className="settings-action-item">
           <div>

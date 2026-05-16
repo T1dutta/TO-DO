@@ -1,5 +1,5 @@
 // src/components/layout/Sidebar.jsx
-import { LayoutDashboard, CheckSquare, Tag, Settings, Zap } from 'lucide-react';
+import { LayoutDashboard, CheckSquare, Settings } from 'lucide-react';
 import { useStore } from '../../store/AppStore';
 import { cn } from '../../lib/utils';
 
@@ -18,8 +18,7 @@ export default function Sidebar({ activePage, onNavigate }) {
     <aside className="sidebar">
       {/* Brand */}
       <div className="sidebar-brand">
-        <div className="brand-icon"><Zap size={18} /></div>
-        <span className="brand-name">Taskr</span>
+        <span className="brand-name">Mindora</span>
       </div>
 
       {/* Main nav */}
